@@ -8,15 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="flex-item item-1">Item 1 flex basis</div>
+        <div class="flex-item item-1">Item 1</div>
         <div class="flex-item item-2">Item 2</div>
         <div class="flex-item item-3">Item 3</div>
         <div class="flex-item item-4">Item 4</div>
         <div class="flex-item item-5">Item 5</div>
         <div class="flex-item item-6">Item 6</div>
-        <div class="flex-item item-7">Item 7</div>
+        <!-- <div class="flex-item item-7">Item 7</div>
         <div class="flex-item item-8">Item 8</div>
-        <div class="flex-item item-9">Item 9</div>
+        <div class="flex-item item-9">Item 9</div> -->
     </div>
 </body>
 </html>
@@ -208,4 +208,24 @@ FLEX ITEM PROPERTIES
         2- pixels percentages or relative units.
         -----
         3- default value is auto
+---------------------------------------------------------------------------------------------------------------
+    5) FLEX
+
+        1- Short hand for flex grow, flex shrink and flex basis.
+        ---
+        2- flex : <flex-grow> <flex-shrink> <flex-basis>
+        ---
+        3- default : flex : 0 1 auto;
+        ----
+        4- One Value : unitless number : flex-grow -> flex : 2
+        ---------------------------------
+        5- One Value : width/height : flex-basis -> flex : 10em | flex : none | initial | auto
+        --------------------------------------------
+        6- Two Value : flex-grow | flex basis => flex : 2 20px
+        -------------------------------------------
+        7- Two Value :  flex-grow | flex shrink  => 2 3;
+        ----------------------------------------------
+        8- Three Value : flex-grow | flex-shrink | flex-basis => flex 1 3 10%;
+----------------------------------------------------------------------------------------------------------------
+
 -->
